@@ -3,10 +3,10 @@ from tokens import *
 def get_working_queue():
     return WORKING_QUEUE
 
-def get_storage_account():
+def get_storage_account_name():
     return STORAGE_ACCOUNT
 
-def get_storage_key():
+def get_storage_account_key():
     return STORAGE_KEY
 
 def get_account_sid():
