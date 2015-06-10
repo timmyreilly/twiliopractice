@@ -25,7 +25,7 @@ queue_service = QueueService(account_name, account_key)
 
 client = TwilioRestClient(ACCOUNT_SID, AUTH_TOKEN)
 
-message_text = get_queue_string()
+message_text = get_state_managed_queue()
 
 message = client.messages.create(
     body=message_text,
